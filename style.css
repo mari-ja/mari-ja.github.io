@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 320px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F0F0F0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav img {
+  width:20px;
+  height:20px;
+}
+
+.sidenav a:hover {
+  color: blue;
+}
+
+.main {
+  margin-left: 320px; /* Same as the width of the sidenav */
+}
+
+#main {
+  width: 1000px;
+  height: 600px;  
+  padding-top: 50px;
+  color: black;
+  margin-left: 350px;
+}
+
+header{
+  text-align: center;
+}
+
+#myimg{
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  background-image: url("./img/marija.jpg");
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.description{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h1{
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 50px;
+}
+h2{
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
